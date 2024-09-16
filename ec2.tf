@@ -3,7 +3,7 @@ resource "aws_instance" "this" {
   instance_type           = "t2.micro"
 
   tags = {
-    Names = "Git"
+    Names = "Git-teraform"
   }
   
 }
